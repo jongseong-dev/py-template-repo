@@ -3,6 +3,7 @@ python 기본 템플릿 레포지토리
 
 # 기본 구성
 - python = ^3.11
+- django = ^4.1
 - pytest.ini: pytest 설정
 
 ## git
@@ -22,8 +23,12 @@ python 기본 템플릿 레포지토리
 - pre-commit = "^3.7.0"
 
 ### group dev
+- django-debug-toolbar
+
+### group test
 - pytest = "^8.1.1"
 - pytest-cov = "^5.0.0"
+- pytest-django
 
 ### gitignore
 - pycharm
