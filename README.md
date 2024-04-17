@@ -5,6 +5,7 @@ python 기본 템플릿 레포지토리
 - python = ^3.11
 - django = ^4.1
 - pytest.ini: pytest 설정
+- postgres: 15.6
 
 ## git
 ### actions
@@ -14,6 +15,12 @@ python 기본 템플릿 레포지토리
 - pr-template: pr template
 
 ## poetry
+
+### main
+- Django 4.2
+- psycopg2-binary
+- djangorestframework
+- django-filter
 
 ### group lint
 - flake8 = "^7.0.0"
