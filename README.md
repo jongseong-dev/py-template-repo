@@ -25,9 +25,11 @@ python 기본 템플릿 레포지토리
 ### group lint
 - flake8 = "^7.0.0"
 - pyright = "^1.1.358"
+    - node 가 설치 되어 있어야 작동한다.
 - ruff = "^0.3.7"
 - reorder-python-imports = "^3.12.0"
 - pre-commit = "^3.7.0"
+- black = "^24.4.0"
 
 ### group dev
 - django-debug-toolbar
