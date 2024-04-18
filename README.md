@@ -37,7 +37,9 @@ python 기본 템플릿 레포지토리
 ### group test
 - pytest = "^8.1.1"
 - pytest-cov = "^5.0.0"
-- pytest-django
+- pytest-django = "^4.8.0"
+- factory-boy = "^3.3.0"
+- pytest-xdist = "^3.5.0"
 
 ### gitignore
 - pycharm
