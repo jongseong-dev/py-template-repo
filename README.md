@@ -45,3 +45,9 @@ python 기본 템플릿 레포지토리
 - pycharm
 - python
 - Django
+
+# 사용법
+
+1. pyproject.toml에서 `name = "template"`을 수정해주세요. 
+2. 그후 `poetry install`을 진행하세요.
+3. 그 다음 `poetry shell`을 실행해 가상환경을 활성화하세요. 
